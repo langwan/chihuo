@@ -1,0 +1,6 @@
+github.com/langwan/go-jwt-hs256 v0.0.0-20220829063254-a42e910faa8f h1:2Wdy1Cw3jCXXoSQf+fjHOM4UwO25SLkbNHdIS11ce+k=
+github.com/langwan/go-jwt-hs256 v0.0.0-20220829063254-a42e910faa8f/go.mod h1:tbxqlL0LlxMlp1jw5cIUGM6O2glowtimtiFkM5p9X8g=
+github.com/langwan/go-jwt-hs256 v0.0.0-20220829063453-d195d4cc1578 h1:kI4xHca2NNYKz2itiK+o54UgiXKxrveikXe37htV1ug=
+github.com/langwan/go-jwt-hs256 v0.0.0-20220829063453-d195d4cc1578/go.mod h1:tbxqlL0LlxMlp1jw5cIUGM6O2glowtimtiFkM5p9X8g=
+github.com/langwan/go-jwt-hs256 v1.0.0 h1:0ZFIcjCDCrOUI9NzJ/Kj/Kl72rw4FrTeW7J7XoA+Kug=
+github.com/langwan/go-jwt-hs256 v1.0.0/go.mod h1:tbxqlL0LlxMlp1jw5cIUGM6O2glowtimtiFkM5p9X8g=

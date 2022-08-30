@@ -1,4 +1,4 @@
-package jwt
+package jwt2
 
 import (
 	"crypto/hmac"
@@ -23,7 +23,7 @@ var alg = HS256
 
 var Secret string
 
-func ha256(secret, data []byte) (ret string, err error) {
+func hs256(secret, data []byte) (ret string, err error) {
 	hasher := hmac.New(sha256.New, secret)
 	_, err = hasher.Write(data)
 	if err != nil {
@@ -45,17 +45,17 @@ func Sign(payload interface{}) (ret string, err error) {
 	}
 
 	bh := base64.RawURLEncoding.EncodeToString(marshal)
-	fmt.Printf("header %s base64 %s\n", string(marshal), bh)
+
 	marshal, err = json.Marshal(payload)
 	if err != nil {
 		return "", err
 	}
 
 	bp := base64.RawURLEncoding.EncodeToString(marshal)
-	fmt.Printf("payload %s base64 %s\n", string(marshal), bp)
+
 	s := fmt.Sprintf("%s.%s", bh, bp)
-	fmt.Printf("s  %s\n", s)
-	ret, err = ha256([]byte(Secret), []byte(s))
+
+	ret, err = hs256([]byte(Secret), []byte(s))
 	if err != nil {
 		return "", err
 	}
@@ -65,8 +65,8 @@ func Sign(payload interface{}) (ret string, err error) {
 
 func Verify(token string) (err error) {
 	parts := strings.Split(token, ".")
-	hasher := hmac.New(sha256.New, []byte(Secret))
 	data := strings.Join(parts[0:2], ".")
+	hasher := hmac.New(sha256.New, []byte(Secret))
 	_, err = hasher.Write([]byte(data))
 	if err != nil {
 		return err
