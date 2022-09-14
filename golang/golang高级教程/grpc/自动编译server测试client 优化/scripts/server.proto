@@ -1,0 +1,15 @@
+syntax = "proto3";
+option go_package = ".;rpc";
+message Empty {
+
+}
+
+message HelloResponse {
+    string hello = 1;
+}
+
+
+service Server {
+    rpc Hello(Empty) returns(HelloResponse);
+    rpc Exit(Empty) returns(Empty);
+}
