@@ -1,9 +1,3 @@
-模板.psd
-golang/24 RSA加密解密/.idea
-golang/GRPC/拦截器与日志/.idea
 *.psd
-golang/golang高级教程/grpc/拦截器与日志/.idea
-golang/golang基础教程/29 return func/.idea
-golang/golang高级教程/grpc/JWT身份认证/.idea
-golang/golang基础教程/30 发布组件/.idea
-golang/golang高级教程/管道/任务投递/.idea
+.idea/
+*.mp4
