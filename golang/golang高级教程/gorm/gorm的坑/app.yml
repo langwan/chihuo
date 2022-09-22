@@ -1,0 +1,10 @@
+mysql:
+  main:
+    conn_max_lifetime: 1h
+    dsn: root:123456@tcp(localhost:3306)/simple?charset=utf8mb4&parseTime=True&loc=Local
+    max_idle_conns: 1
+    max_open_conns: 10
+    slow_threshold: 1
+    colorful: true
+    ignore_record_not_found_error: true
+    log_level: 3
