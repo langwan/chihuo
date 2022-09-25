@@ -1,0 +1,23 @@
+syntax = "proto3";
+option go_package = ".;rpc";
+message Empty {
+
+}
+
+message HelloResponse {
+    string hello = 1;
+}
+
+message RegisterRequest {
+    string name = 1;
+    string password = 2;
+}
+
+message RegisterResponse {
+    string uid = 1;
+}
+
+service Server {
+    rpc Hello(Empty) returns(HelloResponse);
+    rpc Register(RegisterRequest) returns(RegisterResponse);
+}
