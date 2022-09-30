@@ -1,0 +1,21 @@
+syntax = "proto3";
+option go_package = ".;pb";
+message Empty {
+
+}
+
+message PluginMessage {
+    string id = 1;
+    string cmd = 2;
+    string body = 3;
+}
+
+message ServerMessage {
+    string id = 1;
+    string cmd = 2;
+    string body = 3;
+}
+
+service Language {
+    rpc Register(stream PluginMessage) returns(stream ServerMessage);
+}
