@@ -30,3 +30,5 @@
 2022-09-30T17:13:13+08:00 WRN load app config failed. path="/Users/langwan/Documents/data/痴货/go 插件开发（二）/app.yml" tag=run
 2022-09-30T17:16:19+08:00 WRN env file not find tag=run
 2022-09-30T17:16:19+08:00 WRN load app config failed. path="/Users/langwan/Documents/data/痴货/go 插件开发（二）/app.yml" tag=run
+2022-10-09T23:23:51+08:00 WRN env file not find tag=run
+2022-10-09T23:23:51+08:00 WRN load app config failed. path="/Volumes/STORE/媒体/chihuo.git/go语言/热更新插件实现/app.yml" tag=run

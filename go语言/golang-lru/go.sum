@@ -1,0 +1,6 @@
+github.com/hashicorp/golang-lru v1.0.1 h1:5KzQ9DWj9u/NZIuatPgGU/H7bIxFbUta+iD5OQ/aLxo=
+github.com/hashicorp/golang-lru v1.0.1/go.mod h1:iADmTwqILo4mZ8BN3D2Q6+9jd8WM5uGBxy+E8yxSoD4=
+github.com/hashicorp/golang-lru/v2 v2.0.1 h1:5pv5N1lT1fjLg2VQ5KWc7kmucp2x/kvFOnxuVTqZ6x4=
+github.com/hashicorp/golang-lru/v2 v2.0.1/go.mod h1:QeFd9opnmA6QUJc5vARoKUSoFhyfM2/ZepoAG6RGpeM=
+github.com/karlseguin/ccache/v3 v3.0.1 h1:CUHZqX7bxMRoMjeb4VklVb1REPmGXiRGWQKt2ceJq3k=
+github.com/karlseguin/ccache/v3 v3.0.1/go.mod h1:qxC372+Qn+IBj8Pe3KvGjHPj0sWwEF7AeZVhsNPZ6uY=

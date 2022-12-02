@@ -11,7 +11,7 @@ import (
 
 func main() {
 
-	conn, err := grpc.Dial("127.0.0.1:8000", grpc.WithInsecure())
+	conn, err := grpc.Dial("127.0.0.1:8000", grpc.WithInsecure(), grpc.WithBlock(), grpc.WithTimeout(), grpc.w)
 
 	if err != nil {
 		fmt.Printf("err: %v", err)

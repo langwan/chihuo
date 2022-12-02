@@ -23,7 +23,7 @@ func main() {
 		return
 	}
 
-	grpcServer := grpc.NewServer(grpc.UnaryInterceptor(UnaryInterceptor()))
+	grpcServer := grpc.NewServer(grpc.UnaryInterceptor(UnaryInterceptor()), grpc.KeepaliveEnforcementPolicy())
 
 	rpc.RegisterServerServer(grpcServer, Server{})
 

@@ -1,4 +1,4 @@
-# 痴货发明家配套视频代码集合
+# 痴货发明家go语言视频代码集合
 
 * Hello World
 [代码](../go%E8%AF%AD%E8%A8%80/hello%20world/)
@@ -180,4 +180,3 @@
 * 奇怪的return
 [代码](../go%E8%AF%AD%E8%A8%80/%E5%A5%87%E6%80%AA%E7%9A%84return/)
 [视频](https://www.bilibili.com/video/BV1Ue4y1p7bC)
-

@@ -2,37 +2,39 @@ package main
 
 import "fmt"
 
-var cm = make(map[any]any)
+//var cm = make(map[any]any)
 
 type Cache[K comparable, V any] struct {
 	M map[K]V
 }
 
+func NewCache[K comparable, V any]() *Cache[K, V] {
+	c := &Cache[K, V]{
+		M: make(map[K]V),
+	}
+	return c
+}
+
 func (c *Cache[K, V]) Set(k K, v V) {
-	cm[k] = v
+	c.M[k] = v
 }
 
 func (c *Cache[K, V]) Get(k K) (v V, ok bool) {
-	mv, ok := cm[k]
+	mv, ok := c.M[k]
 	if ok {
-		return mv.(V), true
+		return mv, true
 	} else {
 		return
 	}
 }
 
 func (c *Cache[K, V]) Get2(k K) (V, bool) {
-	var v V
-	mv, ok := cm[k]
-	if ok {
-		return mv.(V), true
-	} else {
-		return v, false
-	}
+	mv, ok := c.M[k]
+	return mv, ok
 }
 
 func cache() {
-	c := Cache[string, int]{}
+	c := NewCache[string, int]()
 	c.Set("one", 1)
 
 	v, ok := c.Get("one")
