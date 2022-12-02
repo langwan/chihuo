@@ -1,4 +1,4 @@
-# 痴货发明家配套视频代码集合
+# [痴货发明家](https://space.bilibili.com/401571418)配套视频代码集合
 
 * Hello World
 [代码](../go%E8%AF%AD%E8%A8%80/hello%20world/)
