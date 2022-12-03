@@ -182,3 +182,6 @@
 [视频](https://www.bilibili.com/video/BV1Ue4y1p7bC)
 
 ## 网络其它go语言资源
+* [《Golang修养之路》](https://github.com/aceld/golang)本书针对Golang专题性热门技术深入理解，修养在Golang领域深入话题，脱胎换骨。
+* [计算机自学指南](https://github.com/PKUFlyingPig/cs-self-learning)
+* [【超全golang面试题合集+golang学习指南+golang知识图谱+入门成长路线】](https://github.com/xiaobaiTech/golangFamily)
