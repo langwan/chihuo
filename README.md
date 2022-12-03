@@ -190,3 +190,6 @@
 * [Training for Golang (go language)](https://github.com/GoesToEleven/GolangTraining)
 * [本教程教大家用 450 行 Go 代码实现一个简单的编程语言](https://github.com/karminski/write-a-programming-language-in-450-lines)
 * [Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解](https://github.com/halfrost/LeetCode-Go)
+
+## 个人博客
+* [小白debug]https://xiaobaidebug.top/
