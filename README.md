@@ -187,3 +187,4 @@
 * [超全golang面试题合集+golang学习指南+golang知识图谱+入门成长路线](https://github.com/xiaobaiTech/golangFamily)
 * [Go语言101 : 一本侧重于Go语言语法和语义的编程解释和指导书](https://github.com/golang101/golang101)
 * [为互联网IT人打造的中文版awesome-go](https://github.com/hackstoic/golang-open-source-projects)
+* [Training for Golang (go language)](https://github.com/GoesToEleven/GolangTraining)
