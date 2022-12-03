@@ -182,4 +182,4 @@
 [视频](https://www.bilibili.com/video/BV1Ue4y1p7bC)
 * Go语言Web Server实现
 [代码](./go%E8%AF%AD%E8%A8%80/Go%E8%AF%AD%E8%A8%80Web%20Server%E5%AE%9E%E7%8E%B0/)
-[视频](https://www.bilibili.com/video/BV1Ue4y1p7bC)
+[视频](https://www.bilibili.com/video/BV1Jd4y147hi/)
