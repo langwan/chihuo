@@ -192,4 +192,4 @@
 * [Solutions to LeetCode by Go, 100% test coverage, runtime beats 100% / LeetCode 题解](https://github.com/halfrost/LeetCode-Go)
 
 ## 个人博客
-* [小白debug]https://xiaobaidebug.top/
+* [小白debug](https://xiaobaidebug.top/)
