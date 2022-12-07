@@ -87,9 +87,6 @@
 * return func
 [代码](./go%E8%AF%AD%E8%A8%80/return%20func/)
 [视频](https://www.bilibili.com/video/BV1qY4y1u7w4)
-* 发布组件
-[代码](./go%E8%AF%AD%E8%A8%80/30%20%E5%8F%91%E5%B8%83%E7%BB%84%E4%BB%B6/)
-[视频](https://www.bilibili.com/video/BV1sd4y1G7Xz)
 * context上下文
 [代码](./go%E8%AF%AD%E8%A8%80/context%E4%B8%8A%E4%B8%8B%E6%96%87/)
 [视频](https://www.bilibili.com/video/BV17V4y1p7gR)
