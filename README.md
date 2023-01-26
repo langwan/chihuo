@@ -162,6 +162,7 @@
 * 编译中覆盖变量
 [代码](./go%E8%AF%AD%E8%A8%80/%E7%BC%96%E8%AF%91%E4%B8%AD%E8%A6%86%E7%9B%96%E5%8F%98%E9%87%8F/)
 [视频](https://www.bilibili.com/video/BV1Cv4y1U7wv)
+扩展： [利用动态信息注入，优雅的实现 Go 程序构建](https://www.dbkuaizi.com/archives/190.html)
 * 二次认证google auth
 [代码](./go%E8%AF%AD%E8%A8%80/%E4%BA%8C%E6%AC%A1%E9%AA%8C%E8%AF%81%20google%20auth/)
 [视频](https://www.bilibili.com/video/BV1Xe4y117Lk)
