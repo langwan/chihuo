@@ -2,6 +2,7 @@ package h
 
 import (
 	"github.com/gin-gonic/gin"
+	"io"
 	"reflect"
 )
 
@@ -14,7 +15,7 @@ func POST(g *gin.Engine, relativePath string, handler any) {
 		parameter := method.Type().In(1)
 		req := reflect.New(parameter.Elem()).Interface()
 		err := c.ShouldBindJSON(req)
-		if err != nil {
+		if err != io.EOF && err != nil {
 			Fail(c, err)
 			return
 		}
