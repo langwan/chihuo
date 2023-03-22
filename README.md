@@ -191,7 +191,7 @@
   [视频](https://www.bilibili.com/video/BV1gY4y1X71Z/)
 
 - 改变 Gin 的调用习惯（二）
-  [代码](./go 语言/gin/return handler/)
+  [代码](./go语言/gin/return%20handler)
   [视频](https://www.bilibili.com/video/BV1Bb411o7eh/)
 
 ## 网络其它 go 语言资源
