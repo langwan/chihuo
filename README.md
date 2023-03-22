@@ -190,6 +190,10 @@
   [代码](./go语言/io/http/ServeContent)
   [视频](https://www.bilibili.com/video/BV1gY4y1X71Z/)
 
+- 改变 Gin 的调用习惯（二）
+  [代码](./go 语言/gin/return handler/)
+  [视频](https://www.bilibili.com/video/BV1Bb411o7eh/)
+
 ## 网络其它 go 语言资源
 
 - [《Golang 修养之路》](https://github.com/aceld/golang)本书针对 Golang 专题性热门技术深入理解，修养在 Golang 领域深入话题，脱胎换骨。
